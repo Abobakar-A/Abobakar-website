@@ -294,3 +294,16 @@ section {
      
     }
 }
+
+@media (max-width: 641px) {
+    .main-content {
+        padding: 10px; /* تقليل الهوامش */
+    }
+    .navigation {
+        flex-direction: column; /* تحويل القائمة إلى وضع عمودي */
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
