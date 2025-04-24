@@ -318,6 +318,7 @@ img {
 }
 
 .email {
+    font-size: 0.6em;
     white-space: nowrap; /* يمنع انكسار النص */
     overflow-x: auto; /* يتيح تمرير النص أفقيًا */
     display: block; /* يضمن أن العنصر يُعرض بشكل صحيح */
