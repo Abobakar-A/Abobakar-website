@@ -313,3 +313,12 @@ img {
         margin: auto;
     }
 }
+.card {
+    overflow: hidden; /* يمنع تجاوز النص حدود الكارد */
+}
+
+.email {
+    white-space: nowrap; /* يمنع كسر النص إلى سطر جديد */
+    overflow-x: auto; /* يسمح بالتمرير الأفقي إذا كان النص طويلًا */
+    display: block; /* لتحسين العرض داخل الكارد */
+}
