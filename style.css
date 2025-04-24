@@ -307,3 +307,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        margin: auto;
+    }
+}
