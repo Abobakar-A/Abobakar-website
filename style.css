@@ -127,6 +127,8 @@ section {
     padding: 25px;
     margin: 15px;
     transition: 0.7s ease;
+    word-wrap: break-word; /* يجعل النص يلتف إذا كان طويلاً */
+    overflow-wrap: break-word;
 }
 
 .card:hover {
@@ -317,8 +319,8 @@ img {
     overflow: hidden; /* يمنع تجاوز النص حدود الكارد */
 }
 
-.email {
-    font-size: 0.6em;
+a.email {
+    font-size: 1em;
     white-space: nowrap; /* يمنع انكسار النص */
     overflow-x: auto; /* يتيح تمرير النص أفقيًا */
     display: block; /* يضمن أن العنصر يُعرض بشكل صحيح */
