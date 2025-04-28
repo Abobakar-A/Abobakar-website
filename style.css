@@ -10,7 +10,7 @@
 
 
 header {
-    background-color: #A9A9A9;
+    background-color: #1C1C1C;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -22,14 +22,15 @@ header {
 
 .logo{
     text-decoration: none;
-    color: #3a6cf4;
+    color:  #00FF00;
+
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
 }
 
 .navigation a{
-    color: #3a6cf4;
+    color: #00FF00;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
@@ -37,7 +38,7 @@ header {
 }
 
 .navigation a:hover{
-    color: #601cfc;
+    color: #32CD32;
 }
 
 section {
@@ -64,7 +65,7 @@ section {
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #4e9eff;
+    color: #00FF00;
     font-size: 3em;
     font-weight: 600;
 }
@@ -79,8 +80,8 @@ section {
 }
 
 .main-btn {
-    color: #fff;
-    background-color: #3a6cf4;
+    color: #1C1C1C;
+    background-color: #00FF00;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -93,7 +94,7 @@ section {
 }
 
 .main-btn:hover {
-    background-color: #0a49f6;
+    background-color: #32CD32;
     transform: scale(1.1);
 }
 
@@ -106,7 +107,7 @@ section {
 .title {
     display: flex;
     justify-content: center;
-    color: #3a6cf4;
+    color: #00FF00;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -121,7 +122,8 @@ section {
 
 .card {
     
-    background-color: #fff;
+    background-color: #F5F5DC;
+
     width: 250px;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
@@ -137,17 +139,18 @@ section {
 }
 
 .card .icon {
-    color: #3a6cf4;
+    color: #00FF00;
     font-size: 8em;
     text-align: center;
 }
+
 
 .info {
     text-align: center;
 }
 
 .info h3{
-    color: #3a6cf4;
+    color: #00FF00;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
@@ -162,7 +165,8 @@ section {
 }
 
 .project-card {
-    background-color: #fff;
+    background-color: #F5F5DC;
+
     border: 1px solid #fff;
     min-height: 14em;
     width: 15em;
@@ -170,6 +174,10 @@ section {
     border-radius: 10px;
     margin: 20px;
     transition: 0.7s ease;
+}
+.project-category {
+    font-size: 1.5em; /* تغيير حجم الخط */
+    font-weight: bold; /* جعل النص بولد */
 }
 
 .project-card:hover {
@@ -204,11 +212,11 @@ section {
 
 .more-details {
     text-decoration: none;
-    color: #3a6cf4;
+    color: #00FF00;
 }
 
 .more-details:hover {
-    color: #601cfc;
+    color: #32CD32;
 }
 
 .contact .icon{
@@ -225,7 +233,8 @@ section {
 
 .footer {
     background-color: #000016;
-    color: #fff;
+    color:  #D3D3D3;
+
     padding: 2em;
     display: flex;
     justify-content: space-between;
@@ -237,13 +246,20 @@ section {
 }
 
 .footer-title span {
-    color: #3a6cf4;
+    color: #00FF00;
 }
 
 .footer .social-icons a{
     font-size: 1.3em;
     padding: 0 12px 0 0;
+
 }
+.card .info p {
+    color: #1C1C1C; /* الأخضر النقي */
+  }
+  .card .info a {
+    text-decoration: none; /* إزالة الخط */
+  }
 
 @media (max-width:1023px){
     header{
@@ -339,4 +355,7 @@ a.email {
         margin-bottom: 20px; /* إضافة مسافة بين كل كارد */
     }
 }
-   
+body {
+    background-color: #808080
+    !important; /* لون ذهبي */
+}
